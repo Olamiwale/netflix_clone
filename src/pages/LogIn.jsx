@@ -11,11 +11,13 @@ export default function LogIn() {
     >
       <div className=" w-full h-full bg-black/60">
         <div className="p-8">
-          <img
+          <Link to='/'><img
             className="w-[160px] h-[40px] cursor-pointer"
             src={Netflix}
             alt="Netflix_logo"
           />
+          </Link>
+          
         </div>
         <div className="w-[450px] mx-auto p-16 bg-black/70">
           <h1 className="text-3xl font-bold">Sign In</h1>
