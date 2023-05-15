@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center p-4 px-8">
+    <div className=" w-full flex justify-between items-center p-4 px-8">
       <div>
         <Link to='/'> <img className="w-[100px] h-full" 
         src={Netflix} alt="Netflix_logo" />
