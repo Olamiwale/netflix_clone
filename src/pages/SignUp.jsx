@@ -20,7 +20,7 @@ export default function LogIn() {
           
         </div>
         <div className="w-[450px] mx-auto p-16 bg-black/70">
-          <h1 className="text-3xl font-bold">Sign In</h1>
+          <h1 className="text-3xl font-bold">Sign Up</h1>
 
           <form className="w-full flex flex-col py-4">
             <input
@@ -38,21 +38,16 @@ export default function LogIn() {
             />
 
             <button className="bg-red-600 py-4 my-6 rounded font-bold">
-              Sign In
+              Sign Up
             </button>
 
             <div className="flex justify-between items-center text-sm text-gray-600">
-              <p className="text-xl items-center">
-                <input className="mr-2" type="checkbox" />
-                Remember me
-              </p>
-
-              <p className="text-xl">Need Help?</p>
+             
             </div>
             <p className="py-8">
-              <span className="text-gray-600">New to Netflix?</span>
-              <Link to="/signup" className="text-xl font-semibold px-2">
-                Sign Up Now
+              <span className="text-gray-600">Already have an account? </span>
+              <Link to="/login" className="text-xl font-semibold">
+                 Sign In
               </Link>
             </p>
 
